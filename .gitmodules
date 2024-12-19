@@ -4,3 +4,9 @@
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/zakaria-mourtaban/MemoMateFrontend
+[submodule "MemoMateFrontend"]
+	path = MemoMateFrontend
+	url = git@github.com:zakaria-mourtaban/MemoMateFrontend.git
+[submodule "MemoMateBackend"]
+	path = MemoMateBackend
+	url = git@github.com:zakaria-mourtaban/MemoMateBackend.git
