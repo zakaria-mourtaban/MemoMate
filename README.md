@@ -18,13 +18,12 @@
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-###  Coffee Express is built using the following technologies:
+###  Memo Mate is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us t use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- This project uses [Bun](https://bun.sh/) as the runtime, offering fast JavaScript and TypeScript execution for server-side applications.  
+- The frontend is built with [React](https://reactjs.org/), a popular library for building interactive user interfaces.  
+- For styling, the app uses the ["Poppins"](https://fonts.google.com/specimen/Poppins) font to ensure a modern and clean design.  
+- The app integrates [LangChain](https://langchain.com/) a composable framework to build with LLMs.
 
 <br><br>
 <!-- UI UX -->
