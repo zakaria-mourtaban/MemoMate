@@ -10,9 +10,9 @@
 > Memo Mate aims to take the organization, review, formatting and delivery load off of the hands of the user. Memo Mate removes the need for the user to manually assess each part of their notes without having to worry about the debt they left for their future selves to tackle. We believe that each QOL improvment we can deliver to the user, the more accessible notes will be for everyone.
 
 ### User Stories
-- As a user, I want to skribble out a sketch and have it stored in my notes.
-- As a user, I want to generate an assistant i could ask for help with the material in my notes.
-- As a user, I want to generate notes from videos on youtube.
+- As an issuer, you will have the ability to issue bots with a provided set of knowledge(your notes) that will help you through whatever you need from these notes
+- As a User, you will have the ability to create your own notes and you will be allowed to access chat bots by links that the issuer will share with you
+- As an Admin, you will have the ability to see the sites performance, the tokens used by the userbase, and general statistical metrics
 
 <br><br>
 <!-- Tech stack -->
