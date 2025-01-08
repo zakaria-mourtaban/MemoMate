@@ -16,15 +16,13 @@
 - As an issuer, I want to generate and share a unique link for my bots, so that users can easily access them without needing to manually distribute instructions.
 - As an issuer, I want to update or replace the notes for an existing bot, so that the bot’s responses remain relevant and up to date.
 
----
 
-#### **User User Stories**
+#### **User Stories**
 
 - As a user, I want to create and save my own notes, so that I can organize information relevant to my needs.
 - As a user, I want to access bots shared with me via links, so that I can quickly get information without additional setup.
 - As a user, I want to see a list of bots I’ve accessed, so that I can revisit them when needed.
 
----
 
 #### **Admin User Stories**
 
