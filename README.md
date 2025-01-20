@@ -10,31 +10,45 @@
 > Memo Mate aims to take the organization, review, formatting and delivery load off of the hands of the user. Memo Mate removes the need for the user to manually assess each part of their notes without having to worry about the debt they left for their future selves to tackle. We believe that each QOL improvment we can deliver to the user, the more accessible notes will be for everyone.
 
 ### User Stories
-- As a user, I want to skribble out a sketch and have it stored in my notes.
-- As a user, I want to generate an assistant i could ask for help with the material in my notes.
-- As a user, I want to generate notes from videos on youtube.
+#### **Issuer**
+
+- As an issuer, I want to upload a set of notes when creating a bot, so that the bot can provide specific, tailored information to its users.
+- As an issuer, I want to generate and share a unique link for my bots, so that users can easily access them without needing to manually distribute instructions.
+- As an issuer, I want to update or replace the notes for an existing bot, so that the bot’s responses remain relevant and up to date.
+
+
+#### **User**
+
+- As a user, I want to create and save my own notes, so that I can organize information relevant to my needs.
+- As a user, I want to access bots shared with me via links, so that I can quickly get information without additional setup.
+- As a user, I want to see a list of bots I’ve accessed, so that I can revisit them when needed.
+
+
+#### **Admin**
+
+- As an admin, I want to view real-time and historical data about site performance, so that I can ensure stability and address issues proactively.
+- As an admin, I want to track token usage by the user base, so that I can manage resources and prevent abuse.
+- As an admin, I want to access statistical metrics about user engagement, so that I can make informed decisions about improving the platform.
 
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-###  Coffee Express is built using the following technologies:
+###  Memo Mate is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- This project uses [Bun](https://bun.sh/) as the runtime, offering fast JavaScript and TypeScript execution for server-side applications.  
+- The frontend is built with [React](https://reactjs.org/), a popular library for building interactive user interfaces.  
+- For styling, the app uses the ["Poppins"](https://fonts.google.com/specimen/Poppins) font to ensure a modern and clean design.  
+- The app integrates [LangChain](https://langchain.com/) a composable framework to build with LLMs.
 
 <br><br>
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
 
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We designed Memo Mate using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
-
+- Project Figma design [figma](https://www.figma.com/design/LX7bFPB5jXNUrAW2oFh2dM/final-project-ui?node-id=0-1&t=xpt10un1OkUJpgap-1)
 
 ### Mockups
 | Home screen  | Menu Screen | Order Screen |
