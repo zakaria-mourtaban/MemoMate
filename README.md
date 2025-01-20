@@ -48,13 +48,13 @@
 
 > We designed Memo Mate using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
--   Project Figma design [figma](https://www.figma.com/design/LX7bFPB5jXNUrAW2oFh2dM/final-project-ui?node-id=0-1&t=xpt10un1OkUJpgap-1)
+-   Project Figma design [figma](https://www.figma.com/design/LX7bFPB5jXNUrAW2oFh2dM/MemoMate-UI?node-id=0-1&t=yMCD3OXg6LX3yFVN-1)
 
 ### Mockups
 
-| Workspaces screen                                 | Notes Screen                            | Chats Screen                            |
-| ------------------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Workspaces](./readme/demo/workspacesscreen.png) | ![Notes](./readme/demo/notesscreen.png) | ![Chats](./readme/demo/chatsscreen.png) |
+| login screen                                 | Notes Screen                            |
+| -------------------------------------------- | --------------------------------------- |
+| ![Workspaces](./readme/demo/loginscreen.png) | ![Notes](./readme/demo/notesscreen.png) |
 
 <br><br>
 
