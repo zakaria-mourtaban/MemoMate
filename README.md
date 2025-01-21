@@ -86,15 +86,15 @@
 
 | Whiteboard Feature                                   | Diagram Creation(gantt chart)                        |
 | ---------------------------------------------------- | ---------------------------------------------------- |
-| ![Whiteboard Features](./readme/demo/whiteboard.gif) | ![Whiteboard Features](./readme/demo/gantt.gif) |
+| ![Whiteboard Features](./readme/demo/whiteboard.gif) | ![Diagram Creation](./readme/demo/gantt.gif) |
 
 | Supported Diagrams                                   |
 | ---------------------------------------------------- |
-| ![Whiteboard Features](./readme/demo/supported.gif)  |
+| ![Supported Diagrams](./readme/demo/supported.gif)  |
 
 | Retrival Augmented Generation Chat                   |
 | ---------------------------------------------------- |
-| ![Whiteboard Features](./readme/demo/ragchat.gif)    | 
+| ![Retrival Augmented Generation Chat](./readme/demo/ragchat.gif)    | 
 
 <br><br>
 
