@@ -91,9 +91,11 @@
 | Supported Diagrams                                   |
 | ---------------------------------------------------- |
 | ![Whiteboard Features](./readme/demo/supported.gif)  |
+
 | Retrival Augmented Generation Chat                   |
 | ---------------------------------------------------- |
 | ![Whiteboard Features](./readme/demo/ragchat.gif)    | 
+
 <br><br>
 
 <!-- Prompt Engineering -->
@@ -102,7 +104,27 @@
 ### Mastering AI Interaction: Unveiling the Power of LLM Frameworks:
 
 -   This project utilizes LangChain's built in prompts, tailored to each LLM by the community, it is hard to beat the performance it provides. With the help of LangGraph, a robust RAG (Retrieval Augmented Generation) chatting system is created, allowing us to tap into the potential of llms.
+ ## Diagram generation
+  - The diagram generation uses mermaid syntax under the hood to generate the diagrams, so the usage of OpenAi's gpt-4o-mini was perfect for this application, some configuration was needed to ommit the formatting and extra comments that were left by the LLM so we settled on this prompt.
+    ```
+    "Everything after the prompt tag is the user prompt, generate mermaid syntax to generate the type of diagram requested by the user, do not reply to any message outside of creating these diagrams, DO NOT ADD FORMATTING, if you find that the diagram is not supported by mermaid syntax come up with a way to represent it. <prompt> " + ...
+    ```
+ ## Retrieval Augmented generation
+ - The Retrieval Augmented Generation (RAG) is accomplished in 3 steps in my implementation, Retrieval, Augmentation, and Generation.
+    Retrieval: The vector store is indexed and the relevant paragraph is retrieved (more on this later).
+    Augmentaion: The retrieved paragraph is joined with the query along with the RAG prompt (more on this later).
+    Generation: The LLM generates an output based on the provided information.
 
+ - The RAG Prompt, is a simple prompt provided by LangSmith (part of LangChain) and its goes like this:
+    ```
+    You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.
+    Question: {question} 
+    Context: {context} 
+    Answer:
+    ```
+- The vector store, Before we can provide the LLM with the context it needs, our data goes through multiple steps, firstly the data is converted to a simple string and recursively split into parts where a certain amount of overlap is set, this overlap minimizes the loss of context that happens when splitting the text, after the text is split OpenAi's embedding api is used to create the numerical representation of the text that will then be stored in the vector store(specialized store for vectors), after all the data is stored the vector store is preserved as a file for later usage(in my implementation), after that whenever we need to retrieve a certain piece of context, a similarity search is conducted(between the query and the vector store documents) using "cosine similarity", after the search is conducted if a match has been found, the resulting document is added to the context of the chat bot for the generation.
+
+#### Thankfully, the heavy lifting of the actual implementation of these steps is already standard in libraries like the on im using which lightens the technical load of such a system and allows exploration into such subjects to be smoother and more effiecient.
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
