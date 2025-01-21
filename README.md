@@ -129,31 +129,15 @@ _You will need to have an OpenAi api key._
     ```sh
     git clone --recurse-submodules [github](https://github.com/zakaria-mourtaban/MemoMate.git)
     ```
-2. Change directory to MemoMateBackend
+2. Change directory to MemoMateFrontend
     ```sh
-    cd MemoMateBackend
+    cd MemoMateFrontend
     ```
 3. Install NPM packages
     ```sh
     bun install
     ```
-4. Create .env and copy .sampleenv content
-    ```sh
-    cp .sampleenv .env
-    ```
-5. Run the backend
-    ```sh
-    bun start
-    ```
-6. Change directory to MemoMateFrontend
-    ```sh
-    cd .. && cd MemoMateFrontend
-    ```
-7. Install NPM packages
-    ```sh
-    bun install
-    ```
-8. Run the frontend
+4. Run the frontend
     ```sh
     bun start
     ```
