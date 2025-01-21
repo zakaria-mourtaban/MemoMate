@@ -104,7 +104,7 @@
 
 | Retrival Augmented Generation Chat                   |
 | ---------------------------------------------------- |
-| ![Retrival Augmented Generation Chat](./readme/demo/ragchat.gif)    | 
+| ![Retrival Augmented Generation Chat](./readme/demo/ragchat.png)    | 
 
 <br><br>
 
