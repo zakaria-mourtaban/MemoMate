@@ -80,14 +80,20 @@
 | ----------------------------------------- | -------------------------------- |
 | ![Workspace](./readme/demo/workspace.png) | ![Chats](./readme/demo/chat.png) |
 
-| Chat Creation                            | Diagram Creation                               |
+| Chat Creation                            | Diagram Creation(flowchart)                    |
 | ---------------------------------------- | ---------------------------------------------- |
 | ![Chat Creation](./readme/demo/chat.gif) | ![Diagram Creation](./readme/demo/diagram.gif) |
 
-| Whiteboard Feature                                   |
-| ---------------------------------------------------- |
-| ![Whiteboard Features](./readme/demo/whiteboard.gif) |
+| Whiteboard Feature                                   | Diagram Creation(gantt chart)                        |
+| ---------------------------------------------------- | ---------------------------------------------------- |
+| ![Whiteboard Features](./readme/demo/whiteboard.gif) | ![Whiteboard Features](./readme/demo/gantt.gif) |
 
+| Supported Diagrams                                   |
+| ---------------------------------------------------- |
+| ![Whiteboard Features](./readme/demo/supported.gif)  |
+| Retrival Augmented Generation Chat                   |
+| ---------------------------------------------------- |
+| ![Whiteboard Features](./readme/demo/ragchat.gif)    | 
 <br><br>
 
 <!-- Prompt Engineering -->
