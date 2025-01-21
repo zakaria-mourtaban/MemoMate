@@ -36,10 +36,20 @@
 
 ### Memo Mate is built using the following technologies:
 
--   This project uses [Bun](https://bun.sh/) as the runtime, offering fast JavaScript and TypeScript execution for server-side applications.
--   The frontend is built with [React](https://reactjs.org/), a popular library for building interactive user interfaces.
--   For styling, the app uses the ["Poppins"](https://fonts.google.com/specimen/Poppins) font to ensure a modern and clean design.
--   The app integrates [LangChain](https://langchain.com/) a composable framework to build with LLMs.
+-   **[Bun](https://bun.sh/)**: Utilized as the runtime, offering fast JavaScript and TypeScript execution for server-side applications.  
+-   **[React](https://reactjs.org/)**: A popular library for building interactive and dynamic user interfaces.  
+-   **[Redux](https://redux.js.org/)**: Used for state management, enabling predictable state changes and easier debugging.  
+-   **[SweetAlert2 (swal)](https://sweetalert2.github.io/)**: Integrated for creating elegant, customizable, and responsive alert dialogs.  
+-   **[kbar](https://kbar.vercel.app/)**: Provides a command bar interface to improve user navigation and interaction.  
+-   **[React-Arborist](https://react-arborist.netlify.app/)**: A tree view library used for organizing hierarchical data in a flexible and efficient way.  
+-   **[Express](https://expressjs.com/)**: A minimalist and flexible Node.js framework used for building the backend API.  
+-   **[JSON Web Tokens (JWT)](https://jwt.io/)**: Implements secure authentication and authorization for the application.  
+-   **[MongoDB](https://www.mongodb.com/)**: A NoSQL database used for storing and managing data in a flexible, schema-free format.  
+-   **[Mongoose](https://mongoosejs.com/)**: An ODM library for MongoDB, providing a straightforward way to model and interact with the database.  
+-   **[PDF-Parse](https://www.npmjs.com/package/pdf-parse)**: Integrated for extracting text and metadata from PDF files to process documents effectively.  
+-   **["Poppins"](https://fonts.google.com/specimen/Poppins)**: A clean and modern font used for styling to enhance the application's visual appeal.  
+-   **[LangChain](https://langchain.com/)**: A composable framework that simplifies the integration of large language models (LLMs) for advanced AI-driven features.  
+
 
 <br><br>
 
