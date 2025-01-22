@@ -111,7 +111,7 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-### Mastering AI Interaction: Unveiling the Power of LLM Frameworks:
+### process and techniques:
 
 -   This project utilizes LangChain's built in prompts, tailored to each LLM by the community, it is hard to beat the performance it provides. With the help of LangGraph, a robust RAG (Retrieval Augmented Generation) chatting system is created, allowing us to tap into the potential of llms.
  ## Diagram generation
