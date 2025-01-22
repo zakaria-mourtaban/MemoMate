@@ -140,7 +140,9 @@
 
 ### Deployment:
 
-- We deployed the backend of our application by setting up an AWS EC2 instance to host the server. After provisioning the instance, we configured it with the necessary environment and dependencies, including the Bun runtime for efficient JavaScript execution. We created a custom startup script and registered it as a systemd service to ensure the backend runs automatically on system boot. Additionally, we verified file permissions, set up the appropriate environment variables, and tested the service to confirm reliability. This setup ensures a scalable and consistent deployment for our application's backend.
+We deployed the backend of our application by setting up an AWS EC2 instance to host the server. After provisioning the instance, we configured it with the necessary environment and dependencies, including the Bun runtime for efficient JavaScript execution. We created a custom startup script and registered it as a systemd service to ensure the backend runs automatically on system boot. Additionally, we verified file permissions, set up the appropriate environment variables, and tested the service to confirm reliability. This setup ensures a scalable and consistent deployment for our application's backend.
+
+Furthermore, we set up a GitHub Action that tests for ESLint errors. Upon successful linting, the action SSHs into the EC2 instance, performs a git pull to fetch the latest changes, and restarts the service using systemd, ensuring the backend is always up-to-date.
 
 | login                                        | workspace                                        |
 | -------------------------------------------- | ------------------------------------------------ |
