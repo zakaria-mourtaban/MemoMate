@@ -111,7 +111,7 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-### process and techniques:
+### Applications and techniques:
 
 -   This project utilizes LangChain's built in prompts, tailored to each LLM by the community, it is hard to beat the performance it provides. With the help of LangGraph, a robust RAG (Retrieval Augmented Generation) chatting system is created, allowing us to tap into the potential of llms.
  ## Diagram generation
@@ -138,7 +138,7 @@
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
-###  Backend Deployment:
+### Deployment:
 
 - We deployed the backend of our application by setting up an AWS EC2 instance to host the server. After provisioning the instance, we configured it with the necessary environment and dependencies, including the Bun runtime for efficient JavaScript execution. We created a custom startup script and registered it as a systemd service to ensure the backend runs automatically on system boot. Additionally, we verified file permissions, set up the appropriate environment variables, and tested the service to confirm reliability. This setup ensures a scalable and consistent deployment for our application's backend.
 
